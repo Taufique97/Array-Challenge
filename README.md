@@ -3,13 +3,10 @@ Question : Have the function ArrayChallenge (arr) take the array of numbers stor
 
 Answer :
 
-#include <iostream>
-	
-#include <string>
-	
+#include <iostream>	
+#include <string>	
 using namespace std;
-
-int ArrayChallenge(int arr[], int arrlength){
+int ArrayChallenge(int arr[], int arrlength){	
 	int max, i, index;
 	max = arr[0];
 	for(i=0;i<5;i++){
